@@ -1,0 +1,7 @@
+*.log
+
+# Maven
+target/
+
+# Idea
+.idea

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoProject" verbose="10">
+	<test name="Tests">
+		<!-- Enter group name to execute specific set of tests -->
+		<groups>
+
+		</groups>
+		<classes>
+			<class name="com.sample.test.demo.tests.PlaceOrderHappyPathTest"></class>
+			<class name="com.sample.test.demo.tests.PlaceOrderNegativeTest"></class>
+			<class name="com.sample.test.demo.tests.ResetOrderTest"></class>
+		</classes>
+	</test>
+</suite>
+
